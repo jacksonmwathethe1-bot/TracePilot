@@ -10,3 +10,17 @@ venv/
 *.db
 tracepilot-*.html
 tracepilot-results.json
+# Python test and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.release-test-env/
+.venv/
+venv/
+# Generated TracePilot reports and local data
+tracepilot-*.html
+tracepilot-results.json
+tracepilot-history*.sqlite3
