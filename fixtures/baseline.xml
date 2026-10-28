@@ -1,0 +1,10 @@
+﻿<testsuites>
+  <testsuite name="baseline" tests="4" failures="1">
+    <testcase classname="billing.test_invoice" name="test_total"/>
+    <testcase classname="billing.test_invoice" name="test_tax"/>
+    <testcase classname="users.test_login" name="test_login"/>
+    <testcase classname="api.test_orders" name="test_order">
+      <failure message="ValueError: invalid order">ValueError: invalid order</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

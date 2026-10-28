@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tracepilot"
+version = "0.1.0"
+description = "Local-first JUnit test comparison and flaky-test analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+[project.scripts]
+tracepilot = "tracepilot.__main__:main"
+tracepilot-flaky = "tracepilot.flaky:main"
+[tool.setuptools]
+package-dir = {"" = "src"}
+[tool.setuptools.packages.find]
+where = ["src"]

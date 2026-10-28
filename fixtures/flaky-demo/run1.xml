@@ -1,0 +1,5 @@
+﻿<testsuite name="demo" tests="3">
+  <testcase classname="demo.Checks" name="sometimesFails"/>
+  <testcase classname="demo.Checks" name="alwaysPasses"/>
+  <testcase classname="demo.Checks" name="alwaysFails"><failure message="failed"/></testcase>
+</testsuite>
